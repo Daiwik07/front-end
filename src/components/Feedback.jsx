@@ -26,7 +26,7 @@ const Feedback = () => {
         setFeedMessage(data.message)
         e.preventDefault();
         ref.current.reset()
-        const r = await fetch("http://localhost:3000/feed", {
+        const r = await fetch("http://localhost:3001/feed", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ data }),
