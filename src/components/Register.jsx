@@ -28,7 +28,7 @@ const Register = () => {
 
     const onSubmit = async (data, e) => {
         ref.current.reset()
-        const r = await fetch("http://localhost:3000/register", {
+        const r = await fetch("http://localhost:3001/register", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ data }),
