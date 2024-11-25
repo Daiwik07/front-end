@@ -1,5 +1,5 @@
 import React from 'react';
-import { Images } from '../Images/Images';
+import { Images } from '../images/Images';
 import { Link,ScrollRestoration } from 'react-router-dom';
 
 const athletes = [
