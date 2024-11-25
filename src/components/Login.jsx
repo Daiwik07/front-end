@@ -16,7 +16,7 @@ const Login = () => {
 
   const onSubmit = async (data, e) => {
     ref.current.reset();
-    const r = await fetch("http://localhost:3000/login", {
+    const r = await fetch("http://localhost:3001/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ data }),
