@@ -17,7 +17,7 @@ const Ai = () => {
     const onSubmit = async (data, e) => {
         e.preventDefault();
         ref.current.reset()
-        const r = await fetch("http://localhost:3000/ai", {
+        const r = await fetch("http://localhost:3001/ai", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({data}),
