@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Slider from './Slider';
 import OlympicHistory from './OlympicHistory';
 import ImportanceOfOlympics from './ImportanceOfOlympics';
-import { Images } from '../Images/Images';
+import { Images } from '../images/Images';
 import { ScrollRestoration } from 'react-router-dom';
 
 
